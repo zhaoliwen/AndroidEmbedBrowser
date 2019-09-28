@@ -30,7 +30,7 @@ public class FullscreenActivity extends AppCompatActivity {
 
     private boolean  cont=true;
     BallHandler ballHandler=null;
-    String goUrl="";
+    String goUrl="http://192.168.1.150/Tree";
     private boolean timeout = false;
 
     int num=1;
@@ -216,7 +216,6 @@ public class FullscreenActivity extends AppCompatActivity {
 
     private void initData() {
         Intent intent = getIntent();
-       goUrl="http://192.168.1.150/bank/index.php/Home/Currency/index.html";
         /*if(intent != null){
             goUrl=intent.getStringExtra("goUrl");
         }*/
@@ -249,7 +248,7 @@ public class FullscreenActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient() {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 // 重写此方法表明点击网页里面的链接还是在当前的webview里跳转，不跳到浏览器那边
-                view.loadUrl(goUrl);
+                view.loadUrl(url);
                 return true;
             }
 
