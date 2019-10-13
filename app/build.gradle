@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.1"
     defaultConfig {
-        applicationId "com.newworld.myapplication"//外币猜猜猜2 出境指南3
+        applicationId "com.newworld.myapplication01"//外币猜猜猜2 出境指南3 跨境点播备用版4
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1

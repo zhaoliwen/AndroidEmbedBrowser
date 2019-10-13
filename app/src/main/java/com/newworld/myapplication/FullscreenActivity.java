@@ -30,7 +30,7 @@ public class FullscreenActivity extends AppCompatActivity {
 
     private boolean  cont=true;
     BallHandler ballHandler=null;
-    String goUrl="http://192.168.1.150/Tree";
+    String goUrl="http://192.168.1.8/Tree";
     private boolean timeout = false;
 
     int num=1;
